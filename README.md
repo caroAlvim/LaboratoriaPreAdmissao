@@ -6,6 +6,6 @@ Elaborado usando HTML, CSS e Javascript para
 
 
 Desenvolvido por:
-Bianca Cristina Alves
-Carolina Alvim Tomazi
-Isis Beatriz Ribeiro De Noronha
+Bianca Cristina Alves,
+Carolina Alvim Tomazi,
+Isis Beatriz Ribeiro De Noronha.
