@@ -2,7 +2,7 @@
 
 Projeto proposto para a admissão no bootcamp da Laboratória.
 Desenvolvemos um jogo de perguntas e respostas sobre séries.
-Elaborado usando HTML, CSS e Javascript para 
+Elaborado usando HTML, CSS e Javascript. 
 
 
 Desenvolvido por:
