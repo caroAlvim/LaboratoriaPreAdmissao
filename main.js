@@ -6,11 +6,9 @@ let iniciar = prompt("Deseja inciar a prova?\n 1 Sim \n 2 Não") //vai perguntar
   if (iniciar == "1") {
     const sim = alert("Então vamos começar!");
    
-    const listaCorretas = new Array(
-    );
+    const listaCorretas = [];
     
-    const listaErradas = new Array(
-    );
+    const listaErradas = [];
     
     let primeira = prompt("Pergunta 1 \n Qual é o nome do ator que interpreta Lúcifer na série da Netflix? \n A - Tom Ellis \n B - Tom Riddle \n C - Tom Fords") 
       if ((primeira == "a" || "A" )){
