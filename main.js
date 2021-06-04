@@ -59,9 +59,15 @@ let iniciar = prompt("Deseja inciar a prova?\n 1 Sim \n 2 Não") //vai perguntar
    // mensagemSair
  // }
 
+    /*for (let c = i; c >= f; c-= p) {
+				res.innerHTML +=`${c}`
 
+				//for (var i = Things.length - 1; i >= 0; i--) {
+				//	Things[i]
+				//}
+			}
 
-
+/*
 
     //ir para a funçao jogar
     //document.write 
