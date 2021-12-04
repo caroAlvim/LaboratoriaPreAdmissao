@@ -1,23 +1,44 @@
-<!DOCTtYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
-	<head>
+
+    <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Maníacos por Séries</title>
-        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-
     </head>
-    
-    <body> 
-        <h1> Maníacos por séries </h1>
-            <script src="main.js"></script>
-                <p class = "resultados">RESULTADOS</p>
-                <div>
-                    <div class="coluna1">RESPOSTAS CERTAS</div>
-                    <div id="primeira">
-                    <div class="coluna2">RESPOSTAS ERRADAS</div>
-                </div>     
-      
-    </body>
 
-</html>  
+    <body>
+        <header class="header_init">
+            <h1 class="header_game"> Maníacos por séries </h1>
+            <h2 class="player_name" id="hello"> </h2>
+        </header>
+        <main>
+            <p class="resultados">RESULTADOS</p>
+            <section class="container">
+                <div class="colunas" id="correct"> 
+                    <h4 class="respostas"> RESPOSTAS CORRETAS </h4> 
+                    <div class="quadro">
+                        <p class="corretas" id="resp_corretasUm"> </p>
+                        <p class="corretas" id="resp_corretasDois"> </p>
+                        <p class="corretas" id="resp_corretasTres"> </p>
+                    </div>
+                    
+                 </div>
+                <div class="colunas" id="wrong"> 
+                    <h4 class="respostas"> RESPOSTAS ERRADAS </h4> 
+                    <div class="quadro">
+                        <p class="erradas" id="resp_erradasUm"> </p>
+                        <p class="erradas" id="resp_erradasDois"> </p>
+                        <p class="erradas" id="resp_erradasTres"> </p>
+                    </div>  
+                </div>
+            </section>
+        </main>
+        <script src="main.js"></script>
+    </body>
+    </html>
